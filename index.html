@@ -1,0 +1,26 @@
+<div id="root"></div>
+
+<ion-card>
+  <ion-item>
+      <ion-avatar>
+        <ion-img arc="url_image">
+        </ion-img>
+      </ion-avatar>
+      <h2>{{name}}</h2>
+      <h3>July 16, 2020</h3>
+      <ion-icon item-end name="more"></ion-icon>
+  </ion-item>
+  <ion-img width="100%" height="240" (click)="clickImgae()" src="url_image"></ion-img>
+  <ion-item>
+      <ion-icon name="{{icon}}"></ion-icon>
+      <ion-icon name="ios-chatbubbles-outline}"></ion-icon>
+      <ion-icon name="ios-send-outline"></ion-icon>
+      <ion-icon item-end name="ios-bookmark-outline"></ion-icon>
+  </ion-item>
+  <div margin-start>
+    <p>Curtido por <b>Marcos_Santos</b> e <b>otras pessoas</b></p>
+    <h4><b>Ocean_blue</b> De volta para o futuro é um filme incrível! 
+    Muito bom para assistir nesse tempo de quarentena.
+    com... more</h4>
+  </div>
+</ion-card>
